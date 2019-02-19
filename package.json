@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/scottkipfer/wanderu-test/issues"
   },
-  "homepage": "https://github.com/scottkipfer/wanderu-test#readme"
+  "homepage": "https://github.com/scottkipfer/wanderu-test#readme",
+  "dependencies": {
+    "apollo-fetch": "^0.7.0",
+    "apollo-link-http": "^1.5.11",
+    "axios": "^0.18.0",
+    "graphql": "^14.1.1"
+  }
 }
