@@ -1,5 +1,5 @@
 const { getStationsNear } = require('./lib/DBApi');
-const { randomPick, calcDistance } = require('./lib/utils');
+const { randomPick } = require('./lib/utils');
 const { createStationPairs, printPairs, byPublicTransport, byParking } = require('./lib/station');
 
 const Berlin = {lat: '52.5200' , lng: '13.4050'};
