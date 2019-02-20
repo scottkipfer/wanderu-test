@@ -19,7 +19,7 @@ or
 $ API_KEY="your_api_key" node index.js
 ```
 
-see the link in the probelm statement to aquire an API key.
+see the link in the problem statement to acquire an API key.
 
 ## Problem Statement
 
@@ -39,14 +39,14 @@ If you have any questions, feel free to ask.
 
 ### Design
 
-My solution consists of a main function located in index.js and three moudles to support the function.
+My solution consists of a main function located in index.js and three modules to support the function.
 
 #### main
 
 This function utilizes the helper modules to do the following.
 
 1. Query the Deutsche Bahn Api for stations near Hamburg and Berlin
-2. Filter the Hambug results to only include stations with parking
+2. Filter the Hamburg results to only include stations with parking
 3. Filter the Berlin results to only include stations with public transit.
 4. Combine the results to station pairs
 5. Pick 5 random paris
@@ -82,7 +82,7 @@ This is the graphql query I used.
 
 notes: The graphql query is convenient to get back the fields I need, but it seems to take a long time.
 Also it is strange that I have to pass in `6` to the count field in order to get 5 stations back.
-I am guessing this is a problem with the graphql implmentation they have created.
+I am guessing this is a problem with the graphql implementation they have created.
 
 #### utils
-Helper functions to do a random selction and to computue the distance between two coordinates in kilometers.
+Helper functions to do a random selection and to compute the distance between two coordinates in kilometers.
